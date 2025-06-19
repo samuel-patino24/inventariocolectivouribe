@@ -24,8 +24,26 @@ public class Inventario {
         System.out.println("4️⃣  Eliminar una prenda del sistema 🗑️");
         System.out.println("5️⃣  Presiona 5 para SALIR ❌");
 
-        while(menuOption!=5){
-            System.out.println("oe");
+        System.out.println("por favor digite una opcion");
+        menuOption= keyEntry.nextInt();
+        while(menuOption!=5)
+            try {
+                if (menuOption!=5) {
+                        menuOption = 1;
+                    } else if(menuOption) {
+                        menuOption = 2;
+                    } else if(menuOption) {
+                        menuOption = 3;
+                    } else if(menuOption) {
+                        menuOption = 4;
+                    } else if(menuOption) {
+                        menuOption = 5;
+                    }
+                }
+            }catch(Exception error){
+
+            }
+
         }
 
         //PROCESO 2
